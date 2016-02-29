@@ -1,10 +1,11 @@
 {
-  "name": "node-eventasync",
-  "version": "0.1.0",
+  "name": "eventasync",
+  "version": "1.0.0",
   "description": "node.js event emitter monkey patch for supporting asynchronous listeners",
   "main": "index.js",
   "scripts": {
-    "test": "ava -v test.js"
+    "test": "ava -v test.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "rx": "^4.0.8"
   },
   "devDependencies": {
-    "ava": "^0.12.0"
+    "ava": "^0.12.0",
+    "eslint": "^1.10",
+    "eslint-config-airbnb": "^5.0"
   }
 }
